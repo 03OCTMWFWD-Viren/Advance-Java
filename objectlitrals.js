@@ -246,8 +246,9 @@ const companies = [
 
         //   combine method  //
 
-        const combined = ages.map(age*2)
-        // .filter(age=>age>40)
-        // .sort((a,b)=>a+b,0);
+        const combined = ages.map(age=>age*2)
+        .filter(age=>age>40)
+        .sort((a,b)=>a+b,0);
+        // .reduce((a,b)=> a+b,0);
 
         console.log(combined);
