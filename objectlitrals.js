@@ -43,7 +43,7 @@ const companies = [
         //     console.log(company.end);
         // })
 
-
+        
 
         // filter //
             
